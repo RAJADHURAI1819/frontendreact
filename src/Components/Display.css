@@ -1,0 +1,22 @@
+.movieAlign {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+.tableAlign {
+  align-items: left;
+}
+.buttons {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(213, 47, 67);
+  border-radius: 10px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+.buttonAlign {
+  margin-left: 75px;
+}
+.buttons:hover {
+  background-color: rgb(250, 7, 35);
+}

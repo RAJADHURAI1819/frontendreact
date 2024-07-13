@@ -1,0 +1,16 @@
+const [set, get] = React.useState({
+    _id: "",
+    movie: "",
+    year: "",
+    Genre: "",
+    url: "",
+  });
+  function submitBaby(aa) {
+    axios.get(`${apiConfig.moviesapi}/getMovie/${aa}`).then((values) => {
+      get((set) => ({
+        ...set,
+        ...values.data,
+      }));
+    });
+    b("");
+  }
